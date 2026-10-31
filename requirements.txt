@@ -1,0 +1,7 @@
+torch>=2.1
+transformers>=4.40
+scikit-learn>=1.3
+pandas>=2.0
+numpy>=1.24
+shap>=0.45
+kagglehub>=0.2
