@@ -9,7 +9,7 @@ AFND labels belong to whole news websites, not to single articles. A random arti
 | Model | Random split | Source-disjoint split | Gap |
 |---|---|---|---|
 | TF-IDF + linear SVM | 0.771 ± 0.002 | 0.536 ± 0.022 | 0.235 |
-| AraBERT (default) | 0.883 ± 0.004 | 0.584 ± 0.071 | 0.299 |
+| AraBERT (default) | 0.883 ± 0.004 | 0.584 ± 0.070 | 0.299 |
 
 Ablation on the source-disjoint split (macro-F1): default 0.583 ± 0.071, LLRD 0.610 ± 0.102, weighted loss 0.588 ± 0.078, LLRD + weighted 0.605 ± 0.101. The differences are small and not consistent across seeds.
 
